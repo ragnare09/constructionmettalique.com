@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetalConstruct | Entreprise de Construction Métallique & Design Industriel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><span>RAG</span>NARE</a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- Add this right after the menu-toggle div in the header -->
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Construction Métallique & Design Industriel</h1>
+                <p>Solutions innovantes et durables pour vos projets de construction et d'aménagement industriel</p>
+                <a href="#contact" class="btn">Demander un Devis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Construction Métallique</h3>
+                    <p>Conception et réalisation de structures métalliques sur mesure pour bâtiments industriels, commerciaux et résidentiels.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Design Industriel</h3>
+                    <p>Création de designs fonctionnels et esthétiques pour vos espaces industriels et commerciaux.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chess-board"></i>
+                    </div>
+                    <h3>Charpente Métallique</h3>
+                    <p>Fabrication et installation de charpentes métalliques robustes et durables.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Hangars & Entrepôts</h3>
+                    <p>Construction d'espaces de stockage modulaires et adaptés à vos besoins.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bridge"></i>
+                    </div>
+                    <h3>Ouvrages d'Art</h3>
+                    <p>Réalisation de ponts, passerelles et autres structures métalliques complexes.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Rénovation & Réhabilitation</h3>
+                    <p>Modernisation et mise aux normes des structures métalliques existantes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Nos Réalisations</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="construction">Construction</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="renovation">Rénovation</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="construction">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet Construction">
+                    <div class="project-info">
+                        <h3>Complexe Industriel</h3>
+                        <p>Construction d'un complexe industriel de 5000m² avec charpente métallique</p>
+                        <a href="#" class="project-link">Voir plus</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1600566752225-9a5c8a6830a4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet Design">
+                    <div class="project-info">
+                        <h3>Showroom Automobile</h3>
+                        <p>Design industriel d'un espace d'exposition pour véhicules haut de gamme</p>
+                        <a href="#" class="project-link">Voir plus</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="renovation">
+                    <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet Rénovation">
+                    <div class="project-info">
+                        <h3>Rénovation Entrepôt</h3>
+                        <p>Modernisation d'un entrepôt logistique avec structure métallique</p>
+                        <a href="#" class="project-link">Voir plus</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="construction">
+                    <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet Construction">
+                    <div class="project-info">
+                        <h3>Pont Piétonnier</h3>
+                        <p>Construction d'un pont piétonnier en acier de 50m de portée</p>
+                        <a href="#" class="project-link">Voir plus</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1453&q=80" alt="Projet Design">
+                    <div class="project-info">
+                        <h3>Espace Commercial</h3>
+                        <p>Aménagement intérieur métallique pour un centre commercial</p>
+                        <a href="#" class="project-link">Voir plus</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="renovation">
+                    <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet Rénovation">
+                    <div class="project-info">
+                        <h3>Usine Agroalimentaire</h3>
+                        <p>Réhabilitation complète de la structure métallique d'une usine</p>
+                        <a href="#" class="project-link">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">À Propos de Nous</h2>
+                    <p>Fondée en 2005, MetalConstruct est une entreprise spécialisée dans la construction métallique et le design industriel. Avec plus de 15 ans d'expérience, nous avons réalisé des centaines de projets à travers le pays.</p>
+                    <p>Notre équipe d'experts combine savoir-faire traditionnel et technologies modernes pour offrir des solutions sur mesure, durables et innovantes à nos clients.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="150">0</span>+
+                            <span class="stat-text">Projets Réalisés</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">0</span>+
+                            <span class="stat-text">Clients Satisfaits</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>+
+                            <span class="stat-text">Années d'Expérience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1581093196277-1c6dd0a58a42?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Notre Équipe">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Témoignages Clients</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"MetalConstruct a réalisé la structure métallique de notre nouvelle usine dans les délais et avec un professionnalisme remarquable. Le résultat est parfait."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                            <div>
+                                <h4>Jean Dupont</h4>
+                                <span>Directeur, Industrie ABC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Le design industriel proposé pour notre showroom a parfaitement mis en valeur nos produits. Un travail créatif et fonctionnel."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+                            <div>
+                                <h4>Marie Lambert</h4>
+                                <span>PDG, AutoLuxe</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"La rénovation de notre entrepôt par MetalConstruct a considérablement amélioré notre espace de travail. Très satisfait du résultat."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Client">
+                            <div>
+                                <h4>Pierre Martin</h4>
+                                <span>Directeur Logistique, MegaStore</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-Nous</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>ISTA AL MASSIRA;VILLE EL JADIDA</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>+212634072306</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>baroudim343@gmail.com</p>
+                            <p>baroudim139@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Heures d'Ouverture</h3>
+                            <p>Lundi - Vendredi: 8h00 - 16h00</p>
+                            <p>Samedi: 9h00 - 12h00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Votre Nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Votre Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Votre Téléphone">
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="" disabled selected>Service Demandé</option>
+                                <option value="construction">Construction Métallique</option>
+                                <option value="design">Design Industriel</option>
+                                <option value="charpente">Charpente Métallique</option>
+                                <option value="hangar">Hangars & Entrepôts</option>
+                                <option value="ouvrage">Ouvrages d'Art</option>
+                                <option value="renovation">Rénovation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Votre Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MetalConstruct</h3>
+                    <p>Spécialistes en construction métallique et design industriel depuis 2005. Solutions innovantes pour vos projets.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens Utiles</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#about">À Propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Construction Métallique</a></li>
+                        <li><a href="#">Design Industriel</a></li>
+                        <li><a href="#">Charpente Métallique</a></li>
+                        <li><a href="#">Hangars & Entrepôts</a></li>
+                        <li><a href="#">Ouvrages d'Art</a></li>
+                        <li><a href="#">Rénovation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous à notre newsletter pour recevoir nos dernières actualités.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre Email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 MetalConstruct. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
