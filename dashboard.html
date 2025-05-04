@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord - Entreprise de Fatna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Same header as index.html -->
+
+    <main class="dashboard-container">
+        <h1>Bienvenue sur votre tableau de bord</h1>
+        <p>Vous êtes maintenant connecté à votre compte Entreprise de Fatna.</p>
+
+        <div class="dashboard-actions">
+            <a href="profile.html" class="dashboard-card">
+                <i class="fas fa-user"></i>
+                <h3>Mon Profil</h3>
+            </a>
+            <a href="projects.html" class="dashboard-card">
+                <i class="fas fa-project-diagram"></i>
+                <h3>Mes Projets</h3>
+            </a>
+            <a href="settings.html" class="dashboard-card">
+                <i class="fas fa-cog"></i>
+                <h3>Paramètres</h3>
+            </a>
+        </div>
+
+        <button onclick="logout()" class="btn btn-primary">Déconnexion</button>
+    </main>
+
+    <!-- Same footer as index.html -->
+
+    <script src="auth.js"></script>
+</body>
+
+</html>
